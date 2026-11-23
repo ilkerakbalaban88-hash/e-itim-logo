@@ -1,0 +1,20 @@
+{
+  "name": "İlker Akbalaban Eğitim Danışmanlığı",
+  "short_name": "İlker Akbalaban",
+  "icons": [
+    {
+      "src": "logo_android_192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "logo_ana_ekran_512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#103b63"
+}

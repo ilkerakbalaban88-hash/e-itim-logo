@@ -1,0 +1,13 @@
+LOGO YAYIN PAKETİ
+
+1) GitHub üzerinde herkese açık yeni bir depo açın (ör. egitim-logo).
+2) Bu paketteki dosyaları deponun köküne yükleyin. Yalnızca logo dosyaları herkese açık olacak; Kod.gs, Index.html, kullanıcı ve öğrenci bilgilerini YÜKLEMEYİN.
+3) Settings > Pages > Build and deployment > Deploy from a branch > main / (root) > Save.
+4) GitHub Pages adresiniz örneğin https://KULLANICI.github.io/egitim-logo/ olacaktır.
+5) Bu adreste logo_iphone_180.png dosyasının açıldığını doğrulayın.
+6) Aşağıdaki HTML satırındaki URL'yi kendi gerçek adresinizle değiştirerek Apps Script Index.html <head> içine ekleyin:
+<link rel="apple-touch-icon" sizes="180x180" href="https://KULLANICI.github.io/egitim-logo/logo_iphone_180.png">
+7) Mevcut Apps Script dağıtımını yeni sürüm olarak güncelleyin.
+8) iPhone Safari / Android Chrome üzerinde yeni kısayol oluşturarak simgeyi test edin. Mevcut kısayolun simgesi kendiliğinden güncellenmeyebilir.
+
+ÖNEMLİ: Apps Script HTML Service iframe yapısı nedeniyle otomatik ana ekran simgesi kesin değildir. GitHub Pages manifesti Apps Script uygulamasına tek başına PWA özelliği kazandırmaz. Android ve iPhone cihazlarında sonuç farklı olabilir.
