@@ -1,1 +1,40 @@
-<!doctype html><html lang="tr"><meta charset="utf-8"><title>İlker Akbalaban - Logo Dosyaları</title><meta name="robots" content="noindex"><p>Uygulama logo dosyaları.</p></html>
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#09224a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="İlker Akbalaban">
+  <meta name="description" content="İlker Akbalaban Eğitim Danışmanlığı ve Öğrenci Koçluğu giriş bağlantısı">
+  <meta name="robots" content="noindex,nofollow">
+  <title>İlker Akbalaban | Öğrenci Takip</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./logo_iphone_180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./logo_android_192.png">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <style>
+    :root{color-scheme:light;font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#09224a}
+    *{box-sizing:border-box}body{margin:0;min-height:100dvh;display:grid;place-items:center;background:#f7f9fc;padding:24px}
+    main{width:min(100%,430px);text-align:center;background:white;border-radius:22px;padding:30px 22px;box-shadow:0 12px 36px #09224a15}
+    img{width:min(100%,260px);height:auto;display:block;margin:0 auto 14px}h1{font-size:1.25rem;margin:0 0 10px}p{line-height:1.55;color:#43546c}
+    a.button{display:block;background:#09224a;color:#fff;text-decoration:none;padding:15px;border-radius:12px;font-weight:700;margin:22px 0 14px}
+    small{display:block;color:#56667a;line-height:1.6}
+  </style>
+</head>
+<body>
+  <main>
+    <img src="./logo_ana_ekran_512.png" alt="İlker Akbalaban Eğitim Danışmanlığı logosu">
+    <h1>Öğrenci Takip Sistemi</h1>
+    <p>Veli ve öğrenci giriş ekranına devam edin.</p>
+    <a class="button" id="openApp" href="https://script.google.com/macros/s/AKfycbxFIYJSjyq5NRomMJzyWit2OAgW9jFTGKHwm4tYDujritddVVjiPjbq9z_MnoiQgiUq/exec">Uygulamayı Aç</a>
+    <small>iPhone: Bu sayfayı <strong>Safari</strong> ile açın, Paylaş → <strong>Ana Ekrana Ekle</strong> seçin. Daha sonra ana ekrandaki logoya dokunun.</small>
+  </main>
+  <script>
+    // Yalnızca ana ekrandan açıldığında uygulamaya yönlendir; Safari'de kurulum sayfası açık kalsın.
+    if (window.navigator.standalone === true || window.matchMedia('(display-mode: standalone)').matches) {
+      window.location.replace(document.getElementById('openApp').href);
+    }
+  </script>
+</body>
+</html>
